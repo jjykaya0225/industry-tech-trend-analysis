@@ -1,0 +1,41 @@
+# ── 자격증명 (절대 커밋 금지)
+.env
+*.env
+wos_session.json
+*session*.json
+
+# ── 원자료 / 발주처 자료 (라이선스·개인정보·미공개 납품물)
+*.hwpx
+*.hwp
+*.docx
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.pdf
+*.ttf
+*.otf
+output/
+raw/
+data/
+out_*/
+
+# ── 산출물 이미지 (필요한 것만 선별해 samples/ 에 수동 추가)
+*.png
+*.jpg
+*.svg
+!docs/img/*.png
+
+# ── Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ── OS / 편집기
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
